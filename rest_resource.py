@@ -34,7 +34,7 @@ class Rest_Resource:
         return self._data_model
 
     @data_model.setter
-    def model(self, model):
+    def data_model(self, model):
         self._data_model = data_model
 
 def __main__():
@@ -59,7 +59,6 @@ def __main__():
     print(f"my_res.name = {my_res.name}")
     print(f"my_res._name = {my_res._name}")
     print("#"*40)
-
 
 if __name__ == '__main__':
     __main__()
