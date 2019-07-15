@@ -1,6 +1,6 @@
 class Rest_Resource:
     """
-    An endpoint is a rest resource (noun).
+    A rest resource (noun).
     """
 
     def __init__(self, name, description, data_model):
