@@ -1,0 +1,17 @@
+{
+    "name": "ChangeTZ",
+    "projectName": "SydneyDeployment",
+    "projectId": "7fccc538-4800-4e17-afd9-9ceb7aa12d5a",
+    "templateId": "19fd117f-4fdf-4ae6-88ce-c4386ce9135b",
+    "versionsInfo": [
+        {
+            "id": "c3e5d2f3-5bdf-4c77-903a-48e6948a0ca9",
+            "description": "",
+            "author": "aradford",
+            "version": "1",
+            "versionComment": "",
+            "versionTime": 1543555706182
+        }
+    ],
+    "composite": false
+}

@@ -1,0 +1,17 @@
+{
+    "name": "rh-template",
+    "projectName": "rh-test",
+    "projectId": "9de584cc-707c-484f-8896-1b02a0de0931",
+    "templateId": "4b66bdfe-5c12-4be2-9960-9b5f001f505f",
+    "versionsInfo": [
+        {
+            "id": "40581c76-7a1e-44d6-a33d-054e8ad61133",
+            "description": "",
+            "author": "devnetuser",
+            "version": "1",
+            "versionComment": "",
+            "versionTime": 1559696732377
+        }
+    ],
+    "composite": false
+}

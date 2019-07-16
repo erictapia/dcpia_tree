@@ -1,0 +1,17 @@
+{
+    "name": "802.1x Access Port",
+    "projectName": "802.1x",
+    "projectId": "87935740-75de-4edb-9446-261a494abb88",
+    "templateId": "a00ce631-2192-4c06-8279-08c89b95e5fc",
+    "versionsInfo": [
+        {
+            "id": "73e4c22d-7f7e-4414-96a2-e00931423377",
+            "description": "TEST 802.1x access port",
+            "author": "devnetuser",
+            "version": "1",
+            "versionComment": "Test 1",
+            "versionTime": 1560785665569
+        }
+    ],
+    "composite": false
+}

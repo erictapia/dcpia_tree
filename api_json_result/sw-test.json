@@ -1,0 +1,25 @@
+{
+    "name": "sw-test",
+    "projectName": "vtlTest",
+    "projectId": "763a0840-0b28-4bc1-959f-994795cb24ef",
+    "templateId": "17d41bbc-0177-4d2e-9ef7-f54ccbeadef6",
+    "versionsInfo": [
+        {
+            "id": "4e61b84a-78ee-4ba8-a2da-8ef78abef4d8",
+            "description": "",
+            "author": "devnetuser",
+            "version": "2",
+            "versionComment": "",
+            "versionTime": 1560784215672
+        },
+        {
+            "id": "7f794fe7-979d-4423-8a25-35f9fbb1f66c",
+            "description": "",
+            "author": "devnetuser",
+            "version": "1",
+            "versionComment": "",
+            "versionTime": 1560784194071
+        }
+    ],
+    "composite": false
+}

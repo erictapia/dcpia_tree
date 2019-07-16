@@ -1,0 +1,17 @@
+{
+    "name": "Access_Port",
+    "projectName": "802.1x",
+    "projectId": "87935740-75de-4edb-9446-261a494abb88",
+    "templateId": "7a1334f1-6d0f-462d-86b0-e7ec8e265119",
+    "versionsInfo": [
+        {
+            "id": "03f29c8e-25b2-4e36-b0ec-13609de8c7e4",
+            "description": "Access Port No Auth",
+            "author": "devnetuser",
+            "version": "1",
+            "versionComment": "ez",
+            "versionTime": 1562457084660
+        }
+    ],
+    "composite": false
+}

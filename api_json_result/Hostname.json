@@ -1,0 +1,17 @@
+{
+    "name": "Hostname",
+    "projectName": "MMC_TEST",
+    "projectId": "5b22efce-9142-4589-a2a8-da361255a1aa",
+    "templateId": "6152a85e-09aa-4fbb-a7fe-3101309caecc",
+    "versionsInfo": [
+        {
+            "id": "cccaa5d9-d689-464e-991c-3c61f45024e9",
+            "description": "",
+            "author": "devnetuser",
+            "version": "1",
+            "versionComment": "first commit",
+            "versionTime": 1562520536253
+        }
+    ],
+    "composite": false
+}

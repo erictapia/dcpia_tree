@@ -1,0 +1,25 @@
+{
+    "name": "show_ver",
+    "projectName": "show the version",
+    "projectId": "66a151cd-93e1-40a4-98ee-e8fc4e82fafe",
+    "templateId": "8e4ddd56-9617-4455-a013-c24242520f56",
+    "versionsInfo": [
+        {
+            "id": "5dc72a06-2fe2-4ff6-b8b2-7484bf831305",
+            "description": "shows the versin of the device",
+            "author": "devnetuser",
+            "version": "2",
+            "versionComment": "",
+            "versionTime": 1561721563443
+        },
+        {
+            "id": "c8151dca-8784-40ae-8098-b1a139ef0dad",
+            "description": "shows the versin of the device",
+            "author": "devnetuser",
+            "version": "1",
+            "versionComment": "",
+            "versionTime": 1561720628344
+        }
+    ],
+    "composite": false
+}

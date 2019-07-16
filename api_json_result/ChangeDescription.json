@@ -1,0 +1,49 @@
+{
+    "name": "ChangeDescription",
+    "projectName": "SydneyDeployment",
+    "projectId": "7fccc538-4800-4e17-afd9-9ceb7aa12d5a",
+    "templateId": "b2c7f59d-855e-4de3-a025-fb48cf3525e3",
+    "versionsInfo": [
+        {
+            "id": "c22cebb5-4c5e-49ce-9a29-a7e99ec66857",
+            "description": "",
+            "author": "aradford",
+            "version": "1",
+            "versionComment": "",
+            "versionTime": 1543555633796
+        },
+        {
+            "id": "0df7d689-1f78-494f-b94e-feb8468e6bc4",
+            "description": "",
+            "author": "aradford",
+            "version": "2",
+            "versionComment": "",
+            "versionTime": 1543555654278
+        },
+        {
+            "id": "0f0c8cdc-fd9f-4aa9-af2b-bd271dbf13ce",
+            "description": "",
+            "author": "devnetuser",
+            "version": "5",
+            "versionComment": "removed IP, the template is back to original stage",
+            "versionTime": 1560156048871
+        },
+        {
+            "id": "454427b2-3466-4bff-ba7c-ed23b9a0edae",
+            "description": "",
+            "author": "devnetuser",
+            "version": "4",
+            "versionComment": "added IP address information to the interface",
+            "versionTime": 1560155002963
+        },
+        {
+            "id": "48dc8baa-bee6-4910-8830-1753c1b6a9c3",
+            "description": "",
+            "author": "devnetuser",
+            "version": "3",
+            "versionComment": "",
+            "versionTime": 1559285640898
+        }
+    ],
+    "composite": false
+}
