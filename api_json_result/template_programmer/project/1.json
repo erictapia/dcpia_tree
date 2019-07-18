@@ -1,0 +1,21 @@
+{
+    "name": "Prova",
+    "id": "4a43337b-9458-4b9f-bd2e-edd9f5df450e",
+    "templates": [
+        {
+            "name": "TestTemp",
+            "composite": false,
+            "id": "6ed8675c-b90c-464e-a510-4865730e8821"
+        },
+        {
+            "name": "Prova",
+            "composite": false,
+            "id": "4ff182ad-0b8a-49a1-85cb-f32ae0adfa91"
+        },
+        {
+            "name": "ProvaPnP",
+            "composite": false,
+            "id": "4c770fba-bef3-45e8-8a64-36353dc934b6"
+        }
+    ]
+}

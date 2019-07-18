@@ -1,0 +1,51 @@
+{
+    "version": 1,
+    "name": "Prova",
+    "description": "",
+    "useState": "Available",
+    "type": "Standard",
+    "addedOn": 1560777772173,
+    "lastupdateOn": 1560777772173,
+    "startTime": 0,
+    "endTime": 0,
+    "execTime": 0,
+    "currTaskIdx": 0,
+    "tasks": [
+        {
+            "taskSeqNo": 0,
+            "name": "Image Download",
+            "type": "ImageDownload",
+            "startTime": 0,
+            "endTime": 0,
+            "timeTaken": 0,
+            "currWorkItemIdx": 0,
+            "imageDownloadInfo": [
+                {
+                    "imageId": "90e9257a-c868-4bc1-b280-a764eae7f981",
+                    "imageUrl": null,
+                    "reload": true
+                }
+            ]
+        },
+        {
+            "taskSeqNo": 1,
+            "name": "Config Download",
+            "type": "Config",
+            "startTime": 0,
+            "endTime": 0,
+            "timeTaken": 0,
+            "currWorkItemIdx": 0,
+            "configInfo": {
+                "configId": "4ff182ad-0b8a-49a1-85cb-f32ae0adfa91",
+                "configFileUrl": null,
+                "fileServiceId": null,
+                "saveToStartUp": true,
+                "connLossRollBack": true,
+                "configParameters": null
+            }
+        }
+    ],
+    "addToInventory": true,
+    "tenantId": "5bd3634ab2bea0004c3ebb58",
+    "id": "5d07942c568ecc000779da6b"
+}

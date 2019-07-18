@@ -1,0 +1,17 @@
+{
+    "name": "c9300-test",
+    "projectName": "Switch-Project",
+    "projectId": "698f0cb5-2690-4968-b27b-9831d33f0321",
+    "templateId": "d5a8a58e-064e-409d-aa66-84752916b559",
+    "versionsInfo": [
+        {
+            "id": "f9c8f428-c898-42a4-a6a8-6b67a114f911",
+            "description": "9300-template",
+            "author": "devnetuser",
+            "version": "1",
+            "versionComment": "",
+            "versionTime": 1563354969151
+        }
+    ],
+    "composite": false
+}

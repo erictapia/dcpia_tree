@@ -1,0 +1,11 @@
+{
+    "name": "BranchProject",
+    "id": "ea49a340-c121-4a87-9248-e1abf04a63a9",
+    "templates": [
+        {
+            "name": "test",
+            "composite": false,
+            "id": "74101b50-38aa-4688-a9ce-86b05f864da9"
+        }
+    ]
+}

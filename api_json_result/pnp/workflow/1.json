@@ -1,0 +1,35 @@
+{
+    "version": 1,
+    "name": "Default_5cf4acc5568ecc000779da62",
+    "useState": "Available",
+    "type": "Default",
+    "addedOn": 1559538886063,
+    "lastupdateOn": 1559538886063,
+    "startTime": 0,
+    "endTime": 0,
+    "execTime": 0,
+    "currTaskIdx": 0,
+    "configId": "19fd117f-4fdf-4ae6-88ce-c4386ce9135b",
+    "tasks": [
+        {
+            "taskSeqNo": 0,
+            "name": "Default_ConfigTask",
+            "type": "Config",
+            "startTime": 0,
+            "endTime": 0,
+            "timeTaken": 0,
+            "currWorkItemIdx": 0,
+            "configInfo": {
+                "configId": "19fd117f-4fdf-4ae6-88ce-c4386ce9135b",
+                "configFileUrl": null,
+                "fileServiceId": null,
+                "saveToStartUp": true,
+                "connLossRollBack": true,
+                "configParameters": null
+            }
+        }
+    ],
+    "addToInventory": true,
+    "tenantId": "5bd3634ab2bea0004c3ebb58",
+    "id": "5cf4acc6568ecc000779da63"
+}

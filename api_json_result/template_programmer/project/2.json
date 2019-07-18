@@ -1,0 +1,11 @@
+{
+    "name": "MMC_TEST",
+    "id": "5b22efce-9142-4589-a2a8-da361255a1aa",
+    "templates": [
+        {
+            "name": "Hostname",
+            "composite": false,
+            "id": "6152a85e-09aa-4fbb-a7fe-3101309caecc"
+        }
+    ]
+}

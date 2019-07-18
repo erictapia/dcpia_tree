@@ -1,0 +1,33 @@
+{
+    "response": [
+        "call-home",
+        "cd",
+        "cping",
+        "crypto",
+        "dir",
+        "eping",
+        "grep",
+        "help",
+        "mediatrace",
+        "monitor",
+        "more",
+        "mping",
+        "mstat",
+        "ping",
+        "pwd",
+        "sdlc",
+        "show",
+        "sh",
+        "standby",
+        "start-chat",
+        "systat",
+        "tarp",
+        "test",
+        "traceroute",
+        "ucse",
+        "verify",
+        "where",
+        "which-route"
+    ],
+    "version": "1.0"
+}

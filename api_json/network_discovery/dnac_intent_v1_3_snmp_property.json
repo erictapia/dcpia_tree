@@ -1,0 +1,55 @@
+{
+  "name": "snmp_property",
+  "category": "network_discovery",
+  "request": "get",
+  "resource_path": "/dna/intent/api/v1/snmp-property",
+  "description": "Returns SNMP properties",
+  "response_content_type": "application/json",
+  "response": "model_1_schema",
+  "model_1_schema": {
+      "response": {
+          "type": "model_21_schema",
+          "required": "False"
+      },
+      "version": {
+          "type": "string",
+          "required": "False"
+      }
+  },
+  "model_21_schem": {
+      "id": {
+          "type": "string",
+          "required": "False"
+      },
+      "instanceTenantID": {
+          "type": "string",
+          "required": "False"
+      },
+      "instanceUuid": {
+          "type": "string",
+          "required": "False"
+      },
+      "intValue": {
+          "type": "integer",
+          "required": "False"
+      },
+      "systemPropertyName": {
+          "type": "string",
+          "required": "False"
+      }
+  },
+  "response_messages": {
+      "204": "The request was sccessful, however no content was returned",
+      "206": "The GET request included a Range Header, and the server responded with the partial content matching the range",
+      "400": "The client made a request that the server could not understand (for example, the request syntax is incorrect).",
+      "401": "The client's authentication credentials included with the request are missing or invalid.",
+      "403": "The server recognizes the authentication credentials, but the client is not authorized to perform this request.",
+      "404": "The client made a request for a resource that does not exist.",
+      "409": "The target resource is in a conflicted state (for example, an edit conflict where a resource is being edited by multiple users). Retrying the request later might succeed.",
+      "415": "The client sent a request body in a format that the server does not support (for example, XML to a server that only accepts JSON).",
+      "500": "The server could not fulfill the request.",
+      "501": "The server has not implemented the functionality required to fulfill the request.",
+      "503": "The server is (temporarily) unavailable.",
+      "504": "The server did not respond inside time restrictions and timed-out."
+  }
+}

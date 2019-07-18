@@ -1,0 +1,8 @@
+{
+    "response": {
+        "errorCode": "Bad request",
+        "message": "Invalid input request",
+        "detail": "Discovery Id is not in correct format global-credential"
+    },
+    "version": "1.0"
+}

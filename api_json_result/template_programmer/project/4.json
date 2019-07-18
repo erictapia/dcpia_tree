@@ -1,0 +1,16 @@
+{
+    "name": "Switch-Project",
+    "id": "698f0cb5-2690-4968-b27b-9831d33f0321",
+    "templates": [
+        {
+            "name": "c9300-test",
+            "composite": false,
+            "id": "d5a8a58e-064e-409d-aa66-84752916b559"
+        },
+        {
+            "name": "Switch-Template",
+            "composite": false,
+            "id": "2b7854cc-6448-4d7f-ae57-748cbf361426"
+        }
+    ]
+}

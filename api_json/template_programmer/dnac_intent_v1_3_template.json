@@ -1,5 +1,6 @@
 {
-  "name": "tempalte",
+  "name": "template",
+  "category": "template_programmer",
   "request": "get",
   "resource_path": "/dna/intent/api/v1/template-programmer/template",
   "description": "Lists the available templates",

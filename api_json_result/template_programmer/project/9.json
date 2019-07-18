@@ -1,0 +1,16 @@
+{
+    "name": "802.1x",
+    "id": "87935740-75de-4edb-9446-261a494abb88",
+    "templates": [
+        {
+            "name": "802.1x Access Port",
+            "composite": false,
+            "id": "a00ce631-2192-4c06-8279-08c89b95e5fc"
+        },
+        {
+            "name": "Access_Port",
+            "composite": false,
+            "id": "7a1334f1-6d0f-462d-86b0-e7ec8e265119"
+        }
+    ]
+}

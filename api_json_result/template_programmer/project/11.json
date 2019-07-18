@@ -1,0 +1,11 @@
+{
+    "name": "Sample",
+    "id": "d11ed921-075c-45bd-9075-aaef8fd62af5",
+    "templates": [
+        {
+            "name": "Test_temp",
+            "composite": false,
+            "id": "6b509c4e-0bf7-4626-8061-9fe92305964f"
+        }
+    ]
+}

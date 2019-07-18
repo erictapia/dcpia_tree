@@ -1,0 +1,36 @@
+{
+    "version": 1,
+    "name": "test",
+    "description": "",
+    "useState": "Available",
+    "type": "Standard",
+    "addedOn": 1559538796969,
+    "lastupdateOn": 1560455244769,
+    "startTime": 0,
+    "endTime": 0,
+    "execTime": 0,
+    "currTaskIdx": 0,
+    "tasks": [
+        {
+            "taskSeqNo": 0,
+            "name": "Config Download",
+            "type": "Config",
+            "startTime": 0,
+            "endTime": 0,
+            "timeTaken": 0,
+            "currWorkItemIdx": 0,
+            "workItemList": [],
+            "configInfo": {
+                "configId": "62066037-55cd-4c05-8e09-45674994a274",
+                "configFileUrl": null,
+                "fileServiceId": null,
+                "saveToStartUp": true,
+                "connLossRollBack": true,
+                "configParameters": null
+            }
+        }
+    ],
+    "addToInventory": true,
+    "tenantId": "5bd3634ab2bea0004c3ebb58",
+    "id": "5cf4ac6c568ecc000779da5c"
+}

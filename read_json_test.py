@@ -10,7 +10,7 @@ TOKEN_PATH = "/dna/system/api/v1/auth/token"
 USER = "devnetuser"
 PASS = "Cisco123!"
 
-INPUT_FILE = "./api_json/dnac_intent_v1_3_template.json"
+INPUT_FILE = "./api_json/sites/dnac_intent_v1_3_site_health.json"
 OUTPUT_FILE_DIR = "./api_json_result/"
 
 def get_token(uri, token_path, user, pwd):
@@ -27,6 +27,7 @@ def get_token(uri, token_path, user, pwd):
 
 # CRUD Methods
 # post, get, put, delete
+# returns a list of json collections
 def request(method, uri, body, token):
 
     r = getattr(requests, method)(
@@ -37,7 +38,11 @@ def request(method, uri, body, token):
         },
     )
 
-    return r.json()
+    result = r.json()
+    print(r.status_code)
+    # Special case.  r.json returns a dict when r has a single json collection
+    # so it needs to be converted to a list.
+    return result if isinstance(result, list) else [result]
 
 
 # Read file and assign variable to a dict object
@@ -48,7 +53,12 @@ with open(INPUT_FILE) as file_handle:
 token = get_token(URI, TOKEN_PATH, USER, PASS)
 result = request(resource_dict["request"], URI, resource_dict["resource_path"], token)
 
-# Writing result to file.
+
+item_index = 0
+
 for json_kv_pair in result:
-    with open(OUTPUT_FILE_DIR + json_kv_pair["name"] + ".json", "w") as file_handle:
+
+    with open(OUTPUT_FILE_DIR + "/" + resource_dict["category"] + "/" + resource_dict["name"] + "/" + str(item_index) + ".json", "w") as file_handle:
         json.dump(json_kv_pair, file_handle, indent=4)
+
+    item_index += 1

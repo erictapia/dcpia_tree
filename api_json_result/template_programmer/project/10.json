@@ -1,0 +1,11 @@
+{
+    "name": "rh-test",
+    "id": "9de584cc-707c-484f-8896-1b02a0de0931",
+    "templates": [
+        {
+            "name": "rh-template",
+            "composite": false,
+            "id": "4b66bdfe-5c12-4be2-9960-9b5f001f505f"
+        }
+    ]
+}

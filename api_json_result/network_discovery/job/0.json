@@ -1,0 +1,8 @@
+{
+    "response": {
+        "errorCode": "Bad request",
+        "message": "Invalid input request",
+        "detail": "Required String parameter 'ipAddress' is not present"
+    },
+    "version": "1.0"
+}

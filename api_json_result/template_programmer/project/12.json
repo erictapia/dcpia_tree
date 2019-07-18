@@ -1,0 +1,11 @@
+{
+    "name": "test_pnp",
+    "id": "d62dd1ed-a07b-4eff-87ee-7482dd7e6b89",
+    "templates": [
+        {
+            "name": "test",
+            "composite": false,
+            "id": "4f2a3c4c-7e33-4e20-af6b-bbf11ea31fd3"
+        }
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "name": "SS2.0",
+    "id": "7adfec9a-2f5f-4842-bf4e-b42b7fcaa9f7",
+    "templates": [
+        {
+            "name": "SW3650",
+            "composite": false,
+            "id": "933460f7-5fb4-49e2-befc-fa5473bcac91"
+        }
+    ]
+}

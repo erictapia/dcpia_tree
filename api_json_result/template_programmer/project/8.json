@@ -1,0 +1,21 @@
+{
+    "name": "SydneyDeployment",
+    "id": "7fccc538-4800-4e17-afd9-9ceb7aa12d5a",
+    "templates": [
+        {
+            "name": "test",
+            "composite": false,
+            "id": "62066037-55cd-4c05-8e09-45674994a274"
+        },
+        {
+            "name": "ChangeDescription",
+            "composite": false,
+            "id": "b2c7f59d-855e-4de3-a025-fb48cf3525e3"
+        },
+        {
+            "name": "ChangeTZ",
+            "composite": false,
+            "id": "19fd117f-4fdf-4ae6-88ce-c4386ce9135b"
+        }
+    ]
+}

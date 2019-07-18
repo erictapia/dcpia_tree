@@ -1,0 +1,11 @@
+{
+    "name": "PnP-Day-N_Testing",
+    "id": "6cbb7b4e-3b26-4114-8416-c6c8c65997e6",
+    "templates": [
+        {
+            "name": "For_ASR_Day-N_Testing",
+            "composite": false,
+            "id": "dd3c528e-5ac8-4700-b3ff-549f3caa84b2"
+        }
+    ]
+}

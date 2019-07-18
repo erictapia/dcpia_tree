@@ -1,0 +1,11 @@
+{
+    "name": "show the version",
+    "id": "66a151cd-93e1-40a4-98ee-e8fc4e82fafe",
+    "templates": [
+        {
+            "name": "show_ver",
+            "composite": false,
+            "id": "8e4ddd56-9617-4455-a013-c24242520f56"
+        }
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "name": "For_ASR_Day-N_Testing",
+    "projectName": "PnP-Day-N_Testing",
+    "projectId": "6cbb7b4e-3b26-4114-8416-c6c8c65997e6",
+    "templateId": "dd3c528e-5ac8-4700-b3ff-549f3caa84b2",
+    "versionsInfo": [
+        {
+            "id": "ff6deadb-0721-4ce2-9437-1dfe335e99c1",
+            "description": "",
+            "author": "devnetuser",
+            "version": "1",
+            "versionComment": "",
+            "versionTime": 1563373926945
+        }
+    ],
+    "composite": false
+}
