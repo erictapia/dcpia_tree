@@ -11,6 +11,7 @@ USER = "devnetuser"
 PASS = "Cisco123!"
 
 INPUT_FILE = "./api_json/sites/dnac_intent_v1_3_site_health.json"
+#INPUT_FILE = "./api_json/sites/dnac_intent_v1_3_site_health2.json"
 OUTPUT_FILE_DIR = "./api_json_result/"
 
 def get_token(uri, token_path, user, pwd):
@@ -41,7 +42,7 @@ def request(method, uri, body, token):
     result = r.json()
     print(r.status_code)
     # Special case.  r.json returns a dict when r has a single json collection
-    # so it needs to be converted to a list.
+    # so it needs to be converted to a list for consistency.
     return result if isinstance(result, list) else [result]
 
 
@@ -51,14 +52,19 @@ with open(INPUT_FILE) as file_handle:
 
 # Connect to Cisco DNA Center Sandbox and make a REST request
 token = get_token(URI, TOKEN_PATH, USER, PASS)
-result = request(resource_dict["request"], URI, resource_dict["resource_path"], token)
+result = request(resource_dict["request"], \
+                    URI, resource_dict["resource_path"], token)
 
 
 item_index = 0
 
 for json_kv_pair in result:
 
-    with open(OUTPUT_FILE_DIR + "/" + resource_dict["category"] + "/" + resource_dict["name"] + "/" + str(item_index) + ".json", "w") as file_handle:
+    with open(OUTPUT_FILE_DIR + "/" \
+                + resource_dict["category"] + "/" \
+                + resource_dict["name"] + "/" \
+                + str(item_index) + ".json", "w") as file_handle:
+
         json.dump(json_kv_pair, file_handle, indent=4)
 
     item_index += 1
